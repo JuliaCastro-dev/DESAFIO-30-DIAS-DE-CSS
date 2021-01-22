@@ -1,0 +1,133 @@
+body{
+    background-color: #000;
+    align-items: center;
+    flex-flow: row;
+    display: flex;
+}
+
+.progress-bar{
+    z-index: 1;
+    position: relative;
+    height: 50px;
+    padding: 5px;
+    width: 80%;
+   /* background-image: url("aldeia.jpg");*/
+   background-color: aliceblue;
+    align-items: center;
+    flex-flow: row;
+    left: 100px;
+    animation: div-animation 6s forwards;
+    display: flex;
+    border-radius: 50px;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 0px 9px 7px 6px rgba(110,143,255,0); 
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 0px 9px 7px 6px rgba(110,143,255,0);
+  }
+  .neon{
+    animation: texto-animation 6s forwards;
+    position:absolute;
+    top:50%;
+    left: 37%;
+    margin:0;
+    transform: translate("-50%, -50%");
+    color: #fff;
+    padding: 0;
+    font-size: 3em;
+    text-shadow: 0 0 10px rgb(0, 140, 255);
+    
+    z-index: 0;
+  }
+  
+  .neon:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index:-1;
+    color: rgb(0, 140, 255);
+    filter: blur(20px);
+    visibility: hidden;
+  }
+  .neon:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index:-2;
+    color: rgb(0, 140, 255);
+    filter: blur(50px);
+    visibility: hidden;
+  }
+
+  #naruto{
+      height: 100%;
+      border-radius: 25px;
+      position: absolute;
+      animation: naruto-animation 6s forwards;
+  }
+  
+  #rasengan{
+     
+      position: absolute;
+      animation: progress-animation 6s forwards;
+    
+      height: 20%;
+  }
+
+  @keyframes progress-animation{
+      0%{
+        height: 20%;
+        left: 10%;
+      }
+      99%{
+        height: 100%;
+        left: 90%;
+      }
+      100%{
+          
+          visibility: hidden;
+      }
+      
+  }
+
+
+  
+  @keyframes naruto-animation{
+    0%{
+      
+    }
+    
+    100%{
+        
+        visibility: hidden;
+    }
+    
+}
+
+@keyframes div-animation{
+    0%{
+      
+    }
+    
+    100%{
+        
+        visibility: hidden;
+    }
+    
+}
+
+  
+@keyframes texto-animation{
+    0%{
+        
+    }
+    
+    100%{
+        
+        visibility: visible;
+    }
+    
+}
+
+ 

@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(6, 6, 46);
+    align-items: center;
+    flex-flow: row;
+    display: flex;
+
+}
+h1{
+    font-size: 200px;
+    color: mintcream;
+    letter-spacing: 70px;
+    position: absolute;
+    align-items: center;
+    flex-flow: row;
+    left: 20%;
+    
+}
+#luz{
+    height: 200px;
+    align-items: center;
+    flex-flow: row;
+    left: 27%;
+    position: relative;
+    z-index: 1;
+}
+.lampada{
+    align-items: center;
+    flex-flow: row;
+    left: 18%;
+    position: relative;
+    border-radius: 80%;
+    height: 100px;
+    z-index: 0;
+    top: -40px;
+    transform: rotate(305deg);
+    visibility: visible;
+}
+#power{
+    position: relative;
+    align-items: center;
+    flex-flow: row;
+    left: 25%;
+    border-radius: 100%;
+    border: none;
+    top: 20%;
+    outline: none;
+}
+#icone{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.switch {
+	position: absolute;
+	top: 270px;
+	left: 38%;
+	width: 51px;
+	height: 51px;
+	border-radius: 100%;
+	margin-left: -24px;
+}
+.switch {
+	background-color: rgba(255,255,255,0.03);
+	box-shadow: inset 0px 1px 5px rgba(255,255,255,0.1), 
+                inset 0px 2px 25px rgba(255,255,255,0.07);
+               
+}
+input:checked ~ .switch {
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 10px rgba(255,255,255,0.8), 
+				0px 0px 30px rgba(255,255,255,0.8), 
+				0px 0px 50px rgba(255,255,255,0.6), 
+				0px 0px 70px rgba(255,255,255,0.6);
+}
+input{
+    visibility: hidden;
+}
+.interruptor {
+	position: absolute;
+	top: 410px;
+	left: 50%;
+	width: 60px;
+	height: 22px;
+	margin-left: -30px;
+	background-color: #FFF;
+    border: 2px solid #d9d9d9;
+    border-radius: 20px;
+    box-shadow:  1px 1px 3px #a6a6a6,
+    -1px -1px 3px #ffffff;
+	
+}
+.interruptor > label {
+	display: block;
+	position: relative;
+	height: inherit;
+	
+}
+.interruptor > label:after {
+	content: '';
+	display: block;
+	width: 17px;
+	height: 17px;
+	margin: 2px;
+	background-color: #CCC;
+    transition: all 0.15s ease-in-out;
+    border-radius: 50%;
+}
+input:checked ~ .interruptor {
+	background-color: #3fb6f2;
+	border-color: #3fb6f2;
+	color: #FFF;
+}
+input:checked ~ .interruptor > label:after {
+	margin: 1px;
+	margin-left: 33px;
+	width: 19px;
+	height: 19px;
+	background-color: #FFF;
+}
+
