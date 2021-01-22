@@ -8,3 +8,4 @@ VOCÊ PODE SEGUIR UMA LISTA DE DESAFIOS OU CRIAR OS SEUS :)
 
 # DIA 2 - GALERIA DE FOTOS
 ![](https://media.giphy.com/media/wUKeIDsCkHmYYgfPHH/giphy.gif)
+
