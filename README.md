@@ -4,5 +4,8 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 # DIA 1 - BARRA DE PROGRESSO
 ![](https://media.giphy.com/media/SDPghRQueKfSDjxkJl/giphy.gif)
 
-# DIA 2 - GALERIA DE FOTOS
+# DIA 2 - LUMINARIA PIXAR
+![](https://media.giphy.com/media/SQUZCeOYE9GrTFkWNM/giphy.gif)
+
+# DIA 3 - GALERIA DE FOTOS
 ![](https://media.giphy.com/media/wUKeIDsCkHmYYgfPHH/giphy.gif)
