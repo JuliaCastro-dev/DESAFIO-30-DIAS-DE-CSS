@@ -9,3 +9,6 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 
 # DIA 3 - GALERIA DE FOTOS
 ![](https://media.giphy.com/media/wUKeIDsCkHmYYgfPHH/giphy.gif)
+
+# DIA 4 - CSS DESENHO
+![](https://media.giphy.com/media/Y9snRSWYaPybpkpYFH/giphy.gif)
