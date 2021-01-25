@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  svg {
+    display: block;
+    margin: auto;
+  }
+  
+  path {
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-dasharray: 853;
+    animation: 6s draw forwards;
+  }
+  
+  @keyframes draw {
+    0% {
+      fill-opacity: 0;
+      stroke-dashoffset: 853;
+    }
+    70% {
+      fill-opacity: 0;
+      stroke: #000;
+    }
+    100% {
+      fill-opacity: 1;
+      stroke-dashoffset: 0;
+      stroke: none;
+    }
+  }
+  
