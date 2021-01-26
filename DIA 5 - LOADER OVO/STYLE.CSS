@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+justify-content: center;
+align-items: center;
+display: flex;
+min-height: 100vh;
+background-color: cornflowerblue;
+}
+section{
+justify-content: center;
+align-items: center;
+display:flex;
+}
+ .loader{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     top: 50%;
+     position: absolute;
+ }
+ .ovo{
+     width: 120px;
+     height: 60px;
+     border-radius: 50%;
+     
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     visibility: hidden;
+ }
+.ovo img{
+    width: 70px;
+    animation: ovo 4s infinite;
+}
+#v{
+    animation-delay: 0.5s;
+}
+#o{
+    animation-delay: 1s;
+}
+
+@keyframes ovo{
+    60%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+        width: 80px;
+    }
+}
+
+.text span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.text span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.text  span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.text span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.text  span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.text  span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.text  span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.text  span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.text  span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.text  span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.text span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.text  span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.text  span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.text  span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.text  span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.text  span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+
+
+.text span {
+	color: #b10e81;
+	opacity: 0;
+	transform: translate(-300px, 0) scale(0);
+    animation: sideSlide 7s infinite;
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
+}
+
+@keyframes sideSlide {
+	60% {
+        text-transform: uppercase;
+		transform: translate(20px, 0) scale(1);
+		color: #b10e81;
+	}
+
+	80% {
+		transform: translate(20px, 0) scale(1);
+		color: #b10e81;
+	}
+
+	99% {
+		transform: translate(0) scale(1.2);
+		color: #1900ff;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+		color: #b10e81;
+	}
+}
+
