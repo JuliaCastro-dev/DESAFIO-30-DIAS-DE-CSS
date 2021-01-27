@@ -16,3 +16,6 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 # DIA 5 - LOADER OVO
 ![](https://media.giphy.com/media/tngCVkg3ekp40r6ydi/giphy.gif)
 
+# DIA 5 - DESENHO AMONG US
+![](https://media.giphy.com/media/tngCVkg3ekp40r6ydi/giphy.gif)
+
