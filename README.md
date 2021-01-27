@@ -17,5 +17,5 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 ![](https://media.giphy.com/media/tngCVkg3ekp40r6ydi/giphy.gif)
 
 # DIA 5 - DESENHO AMONG US
-![](https://github.com/JuliaCastro-dev/DESAFIO-30-DIAS-DE-CSS/issues/1)
+![](https://media.giphy.com/media/yNznezUUjepQJnxdhO/giphy.gif)
 
