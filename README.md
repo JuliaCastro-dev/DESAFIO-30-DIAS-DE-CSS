@@ -19,3 +19,5 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 # DIA 6 - DESENHO AMONG US
 ![](https://media.giphy.com/media/yNznezUUjepQJnxdhO/giphy.gif)
 
+# DIA 7 - CARDS
+![](https://media.giphy.com/media/eE2IzbhtcJYn7LcFjn/giphy.gif)
