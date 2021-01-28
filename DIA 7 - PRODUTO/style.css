@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Ubuntu;
+    min-height: 100vh;
+   
+    background-color: #000020;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+  }
+  
+  .form {
+    width: 320px;
+    padding: 2em;
+    border-radius: 20px;
+    background: rgba(255,255,255, 0.06);
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    border-top: 1px solid rgba(255,255,255, 0.3);
+    -webkit-backdrop-filter: blur(10px);;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transform-style: preserve-3d;
+    margin: 20px;
+
+  }
+#b1{
+  position: relative;
+  top: 66px;
+}
+  
+
+  .heart {
+    margin: 20px;
+
+background: linear-gradient(to right, #8d0e00, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 20px;
+    transform: rotate(-45deg);
+    width: 20px;
+    position: relative;
+    left: 85%;
+    top: -15px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background: #9c0012;  /* fallback for old browsers */
+
+
+   
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 18px;
+}
+
+.heart:before {
+    top: -10px;
+    right: 1.8px;
+}
+
+#nike2{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -15PX;
+}
+.container img{
+  transform: translateZ(20px);
+}
+
+input{
+  width: 100px;
+  outline: none;
+  height: 30px;
+
+  background: none;
+  color: aliceblue;
+  border-radius: 5%;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(3, 255, 24);
+  transform: translateY(-0.25em);
+  color:rgb(3, 255, 24);
+}
+
