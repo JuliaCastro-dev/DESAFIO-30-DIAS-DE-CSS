@@ -1,0 +1,82 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">dev.finance$</h1>
+        <div class="darkmode">
+            <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+        </div>
+    </header>
+    <main class="container">
+        <section id="balance">
+            <h2>Balanço</h2>
+            <div class="card">
+                <h3>Entradas</h3>
+                <p>R$ 5.000,00</p>
+            </div>
+           <div class="card">
+
+            <h3>Saídas</h3>
+            <p>R$ 2.000,00</p>
+           </div>
+
+           <div class="card green">
+            <h3>Total</h3>
+            <p>R$ 3.000,00</p>
+           </div>
+           
+
+        </section>
+        <section id="transaction">
+            <h2>Transações</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="desciption">Luz</td>
+                        <td class="expense">- R$ 500,00</td>
+                        <td class="date">23/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td class="desciption">Criação de website</td>
+                        <td class="income">R$ 5000,00</td>
+                        <td class="date">24/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td class="desciption">Internet</td>
+                        <td class="expense">- R$ 500,00</td>
+                        <td class="date">23/01/2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+    </main>
+    <footer> de.</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

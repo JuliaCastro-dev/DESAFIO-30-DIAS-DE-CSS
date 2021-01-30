@@ -1,0 +1,158 @@
+:root{
+    --dark-blue:#363f5f;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #080f20;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+header h1{
+color: mintcream;
+font-weight: 100;
+}
+#balance{
+margin-top: -8rem;
+}
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+h2{
+margin-top:3.2rem;
+color:#363f5f;
+}
+#balance h2{
+    color: mintcream;
+}
+.card{
+    background-color:white;
+    padding: 1.5rem 2rem ;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
+}
+.card h3{
+font-weight: normal;
+font-size: 1rem;
+}
+.card p{
+font-size: 2rem;
+line-height: 3rem;
+}
+.card.green{
+    background-color: #49aa26;
+}
+#data-table{
+width: 100%;
+border-spacing: 0 0.5rem;
+}
+table td{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    color: rgba(36, 36, 36, 0.712);
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+table tr{
+    opacity: 0.7;
+}
+table tr:hover{
+opacity: 1.1;
+
+}
+table th{
+    background-color: rgb(248, 255, 252);
+    opacity: 0.8;
+    color: var(--dark-blue);
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+table thead tr th:first-child,
+table tbody tr td:first-child {
+border-radius: 0.5rem 0 0 0.5rem;
+}
+td.description{
+    color: var(--dark-blue);
+}
+
+
+.darkmode{
+  position: relative;
+  left: 47%;
+  top: 25px;
+}
+
+body.dark {
+	background: #080f20;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+    background: rgba( 6, 13, 44, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+	
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	height: 17px;
+	width: 17px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+
+.fa-moon {
+	color: #dfe6e9;
+}
+
+.fa-sun {
+	color: #f1c40f;
+}
+td.description{
+    color: var(--dark-blue);
+}
+td.income{
+    color: #12a454;
+}
+td.expense{
+    color: #e92929;
+}
