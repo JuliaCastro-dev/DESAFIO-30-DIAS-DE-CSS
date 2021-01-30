@@ -21,3 +21,6 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 
 # DIA 7 - CARDS
 ![](https://media.giphy.com/media/eE2IzbhtcJYn7LcFjn/giphy.gif)
+
+#DIA 8 - DARKMODE
+![](https://media.giphy.com/media/YqN4iOSKXtIYLRjQLx/giphy.gif)
