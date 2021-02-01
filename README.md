@@ -24,3 +24,6 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 
 # DIA 8 - DARKMODE
 ![](https://media.giphy.com/media/YqN4iOSKXtIYLRjQLx/giphy.gif)
+
+# DIA 9 - MENU RESPONSIVO
+![](https://media.giphy.com/media/hruTsNJlTJTfZrFrtH/giphy.gif)
