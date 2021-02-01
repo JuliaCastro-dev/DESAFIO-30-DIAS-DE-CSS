@@ -1,0 +1,259 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+  }
+ 
+  
+  #navMenu {
+    top: 3%;
+    left: 80%;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+    background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);
+    -webkit-background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);
+    background-size: 400% 400%;
+    -webkit-background-size: 400% 400%;
+    animation: gradient 5s infinite;
+    -webkit-animation: gradient 5s infinite;
+  }
+  
+  #navMenu:hover, .nav:hover {
+    background: #d350db;
+  }
+  
+  @keyframes gradient {
+    50% {
+      background-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes gradient {
+    50% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .diamond {
+    position: absolute;
+    width: 50.5px;
+    height: 50.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background: #910EC9;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 1px 4px 10px #420347;
+  }
+  
+  .diamond:active {
+    background: #710b9e;
+    box-shadow: 0px 1px 2.5px #3d0342;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+  }
+  
+ 
+  
+  .nav {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+  
+  .nav1 {
+    top: 6.5%;
+    left: 30%;
+  }
+  
+  .nav2 {
+    top: 6.5%;
+    left: 40%;
+  }
+  
+  .nav3 {
+    top: 6.5%;
+     left: 50%;
+  }
+  
+  .nav4 {
+    top: 6.5%;
+    left: 60%;
+  }
+  
+  .nav5 {
+    top: 6.5%;
+    left: 69%;
+  }
+  
+  .small {
+    top: 186px;
+    left: 236px;
+    z-index: 10;
+    background: #643fc1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+  
+  .rotCorrect {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 14px;
+    margin-top: 8px;
+  }
+  
+  #mainRotCorrect {
+    margin-left: 20px;
+    margin-top: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    max-width: 90px;
+  }
+  
+  i{
+    color: #EEEEEE;
+  }
+  header{
+    width: 100%;
+    height: 20%;
+    top: 2%;
+  
+    
+  }
+  #logo{
+    width: 30px;
+    height: 25px;
+  }
+  .fa .fa-diamond{
+    width: 30px;
+    height: 25px;
+  }
+  hr{
+    position: relative;
+    top: 2%;
+  }
+  main{
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: FLEX;
+    color: mintcream;
+  }
+
+h1 {
+    color: #fff;
+    font-weight:bolder;
+    text-decoration:none;
+    text-shadow: 0 0 4px #fff;
+    font-size: 100px;
+    position: relative;
+    top: -70px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #navMenu {
+    width: 68px;
+    height: 68px;
+    top: 6%;
+    right: 1%;
+  }
+  #mainRotCorrect {
+  margin-top: 12px;
+  margin-left: 15px;
+  }
+  #RotCorrect{
+    top: -2%;
+  }
+  .diamond{
+    width: 33px;
+    height: 33px;
+  }
+  
+  .nav1{
+    left: 85.4%;
+    top: 1%;
+  }
+  .nav2{
+    left: 88.5%;
+    top: 5%;
+  }
+  .nav3{
+    left: 91.5%;
+    top: 9%;
+  }
+  .nav4{
+    left: 88.5%;
+    top: 13%;
+  }
+  .nav5{
+    left: 85.3%;
+    top: 16.9%;
+  }
+
+  .rotCorrect i{
+    position: relative;
+    top: -5px;
+    right: 5px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #navMenu {
+    width: 58px;
+    height: 58px;
+    top: 6%;
+    margin-right: 25px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+  }
+  #mainRotCorrect {
+   top: -3px;
+   position: relative;
+   right: 3px;
+  
+  }
+  #RotCorrect{
+    top: -2%;
+  }
+  .diamond{
+    width: 27px;
+    height: 27px;
+  }
+  
+  .nav1{
+    left: 87.9%;
+    top: 1.5%;
+  }
+  .nav2{
+    left: 92%;
+    top: 4.8%;
+  }
+  .nav3{
+    left: 96%;
+    top: 8.5%;
+    width: 29px;
+    height: 29px;
+  }
+  .nav4{
+    left: 92%;
+    top: 12%;
+  }
+  .nav5{
+    left: 88%;
+    top: 15.9%;
+  }
+  .rotCorrect i{
+    position: relative;
+    top: -5px;
+    right: 5px;
+  }
+
+}
+   
