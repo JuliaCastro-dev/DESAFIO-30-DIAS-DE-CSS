@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(5, 0, 31);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    display: block;
+
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 15%;
+    object-fit:cover;
+ 
+    bottom: 40px;
+    position: relative;
+    object-position: center;
+    box-shadow: rgba(0, 0, 0, 0.623) 5px 5px 5px ;
+}
+
+.btn {
+    color: rgb(253, 253, 255);
+    cursor: pointer;
+    display: block;
+    letter-spacing: 0.075em;
+    padding: .8em 1em;
+    margin: 2em;
+    font-weight: 900;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    
+    border: 3px #00bcdd solid;
+    border-image: linear-gradient(45deg, #00bcdd 0%, #ff00ff 100%);
+    border-image-slice: 1 1 0 0;
+    z-index: 1;
+    text-decoration: none;
+    box-shadow: -0.5em .5em transparentize(rgb(16,24,50),1);
+    transform-origin: left bottom;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+    .btn:before,
+    .btn:after {
+      border: 3px #00bcdd solid;
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -1;
+    }
+    
+ 
+    .btn:before {
+      border-image: linear-gradient(45deg, #00bcdd 0%, adjust-hue(#00bcdd,10%) 100%);
+      border-image-slice: 1 1 0 1;
+      left: -0.59em; top: .15em;
+      width: .31em;
+      height: 100%;
+      transform: skewY(-45deg);
+    }
+    
+
+    .btn:after {
+      border-image: linear-gradient(45deg, #00bcdd 0%, #ff00ff 100%);
+      border-image-slice: 1 1 1 0;
+      bottom: -0.61em; right: 0.16em;
+      width: 100%;
+      height: .31em;
+      transform: skewX(-45deg);
+    }
+    
+
+    .btn:hover {
+     
+      background-color: rgb(235, 235, 235);
+      background-size: 85%;
+      color: darkslateblue;
+      transform: translate(0.5em,-0.5em);
+      box-shadow: -1em 1em .15em transparentize(rgb(16,24,50),.9);
+      
+      
+    } 
+      .btn:before {
+        background-image(linear-gradient(45deg, #00bcdd0%, adjust-hue($blue-color,10%) 100%));
+        height: calc(100% - .13em);
+        border-image-slice: 1;
+      }
+      
+      .btn:after {
+        background:linear-gradient(45deg, #00bcdd 0%,#ff00ff 100%);
+        width: calc(100% - .13em);
+        border-image-slice: 1;
+      }
+    
+  
+  
