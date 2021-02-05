@@ -27,3 +27,10 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 
 # DIA 9 - MENU RESPONSIVO
 ![](https://media.giphy.com/media/hruTsNJlTJTfZrFrtH/giphy.gif)
+
+# DIA 10 - PROFILE BUTONS
+
+![](https://media.giphy.com/media/wcVtS0DmvoBeUZYkoM/giphy.gif)
+
+# DIA 11 - LOADER POKEBOLA
+![](https://media.giphy.com/media/95kS1mZueQNMzjISnL/giphy.gif)
