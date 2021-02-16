@@ -34,3 +34,9 @@ O desafio consiste em um mini projeto por dia, visando melhorar suas habilidades
 
 # DIA 11 - LOADER POKEBOLA
 ![](https://media.giphy.com/media/95kS1mZueQNMzjISnL/giphy.gif)
+
+# DIA 12 - CARTA YU-GI-OH
+![](https://media.giphy.com/media/zUwDAOzoW7huUV2WJz/giphy.gif)
+
+# DIA 13 - TELA DE LOGIN
+![](https://media.giphy.com/media/P5paTyj9rpuM68fFI3/giphy.gif)
